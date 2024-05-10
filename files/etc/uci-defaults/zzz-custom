@@ -37,7 +37,7 @@ uci set wireless.@wifi-iface[0].mobility_domain='1111'
 uci set wireless.@wifi-iface[0].reassociation_deadline='20000'
 uci set wireless.@wifi-iface[0].ft_over_ds='0'
 uci set wireless.@wifi-iface[0].ft_psk_generate_local='1'
-uci set wireless.@wifi-iface[0].ssid='Openwrt'
+uci set wireless.@wifi-iface[0].ssid='Redmi_ax6000_2G'
 uci set wireless.@wifi-device[1].country='CN'
 uci set wireless.@wifi-device[1].channel='auto'
 uci set wireless.@wifi-device[1].htmode='HE160'
@@ -48,7 +48,7 @@ uci set wireless.@wifi-iface[1].mobility_domain='1111'
 uci set wireless.@wifi-iface[1].reassociation_deadline='20000'
 uci set wireless.@wifi-iface[1].ft_over_ds='0'
 uci set wireless.@wifi-iface[1].ft_psk_generate_local='1'
-uci set wireless.@wifi-iface[1].ssid='Openwrt5G'
+uci set wireless.@wifi-iface[1].ssid='Redmi_ax6000_5G'
 uci commit wireless
 
 #enable flow offloading
